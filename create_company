@@ -1,0 +1,7 @@
+create table if not exists incomedeclaration.company 
+(
+id INT NOT NULL AUTO_INCREMENT,
+URL VARCHAR(500),
+status VARCHAR(255),
+PRIMARY KEY (id)
+) ENGINE=InnoDB;

@@ -1,0 +1,9 @@
+create table if not exists incomedeclaration.ctc_details 
+(
+id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+employee_id int NOT NULL,
+ctc_name varchar(255) not null,
+ctc_value varchar(255) not null
+ 
+
+)ENGINE = InnoDB;
